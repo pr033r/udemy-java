@@ -16,6 +16,7 @@ class IntClass {
     public void setMyValue(int myValue) {
         this.myValue = myValue;
     }
+
 }
 
 
