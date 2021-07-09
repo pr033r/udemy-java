@@ -102,11 +102,12 @@ public class Main {
             System.out.println(planet.getName() + ": " + planet.getOrbitalPeriod());
         }
 
+        // pokud maji dva objekty stejny HASH CODE, tak equals() je true
+        // hash code u Object znaci to, do jakeho "bucketu" se instance diva
+        // tzn. ze dve instance maji stejny HASH CODE -> tj. divaji se do stejneho bucketu
         Object o = new Object();
         o.equals(o);
         "pluto".equals("");
-
-
 
     }
 }

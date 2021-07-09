@@ -33,6 +33,10 @@ public class Main {
 
 
         List<Theatre.Seat> priceSeats = new ArrayList<>(theatre.getSeats());
+        System.out.println("LASAK:");
+        printList(priceSeats);
+        System.out.println("END LASAK:");
+
         priceSeats.add(theatre.new Seat("B00", 13.00));
         priceSeats.add(theatre.new Seat("A00", 13.00));
         Collections.sort(priceSeats, Theatre.PRICE_ORDER);

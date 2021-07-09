@@ -52,7 +52,9 @@ public final class HeavenlyBody {
 
     @Override
     public int hashCode() {
-        System.out.println("hashcode called");
+        System.out.println("hashcode called: " + this.name.hashCode() + 57);
+
+        // + 57 kvuli best pracices -> az to neni 0 treba
         return this.name.hashCode() + 57;
     }
 }
