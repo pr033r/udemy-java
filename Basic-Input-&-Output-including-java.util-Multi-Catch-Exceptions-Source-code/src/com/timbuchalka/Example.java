@@ -10,6 +10,14 @@ import java.util.Scanner;
 public class Example {
 
     public static void main(String[] args) {
+
+        // That's actually true in any language...finally will always execute
+        // before a return statement, no matter where that return is in the method body.
+        // If that wasn't the case, the finally block wouldn't have much meaning.
+        // "Better with debug"
+        finallyTest();
+
+
         try {
             int result = divide();
             System.out.println(result);
@@ -31,6 +39,23 @@ public class Example {
 //        } catch(ArithmeticException e) {
 //            throw new ArithmeticException("attempt to divide by zero");
 //        }
+    }
+
+    public static int finallyTest() {
+        int x = 3;
+        try {
+            try {
+                x++;
+                if (true) throw new RuntimeException("Ahh!");
+                return x; // skipped
+            } finally {
+                x--;
+            }
+        } catch (RuntimeException e) {
+            return ++x;
+        } finally {
+            x--;
+        }
     }
 
     private static int getInt() {
