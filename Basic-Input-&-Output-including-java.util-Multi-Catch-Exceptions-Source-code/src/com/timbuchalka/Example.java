@@ -17,7 +17,6 @@ public class Example {
         // "Better with debug"
         finallyTest();
 
-
         try {
             int result = divide();
             System.out.println(result);
