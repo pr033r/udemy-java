@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c63cccc9-ce5c-4697-afc3-5a380bfadc6d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java-Collections-Collections-List-Methods-Source-code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Collections-Collections-List-Methods-Source-code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Collections-Collections-List-Methods-Source-code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Collections-Comparable-and-Comparator-Source-code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Collections-Comparable-and-Comparator-Source-code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java-Collections-Comparable-and-Comparator-Source-code/src/com/timbuchalka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Collections-Comparable-and-Comparator-Source-code/src/com/timbuchalka/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,10 +115,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-Collections-Sets-&amp;-HashSet-Source-code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OOP-Part-2-Polymorphism-Source-code" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -530,9 +527,10 @@
       <method />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.timbuchalka.Main" />
       <module name="Collections" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -540,6 +538,8 @@
       </method>
     </configuration>
     <configuration name="MapProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.timbuchalka.MapProgram" />
       <module name="Collections" />
       <extension name="coverage">
@@ -646,6 +646,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
